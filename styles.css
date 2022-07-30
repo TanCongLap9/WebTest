@@ -1,0 +1,339 @@
+body {
+  font-family: sans-serif;
+}
+button {
+  cursor: pointer;
+}
+table,
+tr,
+td {
+  margin: 0;
+}
+.lr-button {
+  background-color: transparent;
+  border-style: none;
+}
+.div-box {
+  max-width: 1300px;
+  margin: auto;
+}
+.div2-box {
+  overflow: auto;
+  max-width: 820px;
+  margin: 80px auto;
+}
+.white-button {
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+}
+.white-button:hover {
+  background-color: lightgray;
+}
+.black-button {
+  padding: 15px 10px;
+  background-color: #222222;
+  color: white;
+  font-weight: bold;
+}
+.black-button:hover {
+  background-color: black;
+}
+/* Header */
+header {
+  background-color: white;
+  box-shadow: 0px 5px 3px black;
+  position: relative;
+  padding: 10px 20px;
+}
+header input[type="search"] {
+  height: 40px;
+  display: inline;
+}
+#login {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  border: 1px solid black;
+  padding-left: 0;
+  padding-right: 0;
+  width: 80px;
+}
+#login:hover {
+  background-color: lightgray;
+}
+#signup {
+  background-color: #222222;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #222222;
+  padding-left: 0;
+  padding-right: 0;
+  width: 80px;
+}
+#signup:hover {
+  background-color: black;
+}
+header button {
+  background-color: white;
+  height: 40px;
+  margin: 0 5px;
+}
+header #language-button {
+  border: 1px solid black;
+  color: black;
+  width: 40px;
+}
+header button:hover {
+  color: purple;
+}
+/* HireScreen */
+#hire-screen {
+  position: relative;
+  top: 10px;
+  max-width: 1400px;
+  margin: auto;
+}
+#hire-dialog {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+  padding: 10px 20px;
+  width: 320px;
+}
+/* CoursesList */
+#courses-list .books-list {
+  position: relative;
+}
+#courses-list .lr-button-td {
+  overflow: auto;
+}
+#courses-list #book-td {
+  vertical-align: top;
+}
+#courses-list .course-button {
+  background-color: white;
+  font: normal bold 15px sans-serif;
+  color: darkgray;
+  padding: 10px 10px;
+}
+#courses-list .course-button:hover,
+#courses-list .course-button[data-selected="true"] {
+  color: black;
+}
+#course-detail {
+  padding: 20px 20px;
+}
+.bestseller {
+  background-color: yellow;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.highest-rated {
+  background-color: orange;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.rating-star-text {
+  color: darkgoldenrod;
+  font-weight: bold;
+  font-size: 14px;
+}
+.book-author {
+  color: gray;
+  font-size: 12px;
+}
+.book-title {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.rating-amount {
+  color: gray;
+  font-size: 12px;
+}
+#back-button {
+  position: absolute;
+  top: 50px;
+  left: -20px;
+}
+#next-button {
+  position: absolute;
+  top: 50px;
+  right: -20px;
+}
+/* SeeAlso */
+#see-also-bg {
+  background-color: #eeeeee;
+  padding: 20px 0px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.see-also-img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+.see-also-td {
+  padding: 0 160px 0 0;
+}
+.see-also-td:last-child {
+  padding: 0 0 0 0;
+}
+
+/* Categories */
+#categories button {
+  background-color: white;
+  margin: 10px;
+}
+#categories img,
+#categories button {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+#categories figcaption {
+  font-size: 15px;
+  padding: 5px 0;
+  font-weight: bold;
+}
+#categories h2 {
+  padding: 0;
+  margin: 15px;
+}
+#categories td {
+  padding: 10px;
+}
+#categories figure {
+  margin: 0;
+}
+/* TopicsByCategory */
+#topics-by-category-bg {
+  background-color: #eeeeee;
+  padding: 75px 0px;
+}
+#topics-by-category a {
+  color: #6600ff;
+  font-size: 14px;
+  font-weight: bold;
+}
+#topics-by-category a:hover {
+  color: midnightblue;
+  font-weight: bold;
+}
+#topics-by-category p {
+  font-size: 12px;
+  color: dimgray;
+}
+#topics-by-category td {
+  width: 25vw;
+}
+#topics-by-category button {
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+#topics-by-category button:hover {
+  background-color: lightgray;
+}
+/* Teaching */
+#teaching img {
+  float: left;
+  margin: 0px 80px 0px 0px;
+}
+#teaching-proposal {
+  overflow: auto;
+  position: relative;
+  top: 80px;
+}
+/* TrustedCompanies */
+#trusted-companies {
+  background-color: #eeeeee;
+  text-align: center;
+  margin: 80px auto 80px auto;
+  padding: 10px;
+}
+#trusted-companies table {
+  margin: auto;
+}
+/* Business */
+#business {
+  position: relative;
+}
+#business-proposal {
+  overflow: auto;
+  position: relative;
+  top: 100px;
+}
+/* Education */
+#education {
+  position: relative;
+}
+#education-proposal {
+  overflow: auto;
+  position: relative;
+  top: 20px;
+}
+/* Footer */
+footer {
+  background-color: #222222;
+  padding: 20px 30px;
+}
+footer table {
+  margin: 0px 0px 70px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer td {
+  padding: 1px 100px 3px 0px;
+  font-size: 14px;
+}
+footer #lang-button {
+  float: right;
+  background-color: inherit;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+footer copy {
+  float: right;
+  color: white;
+  font-size: 12px;
+}
+
+/* NO-DEBUG */
+.white-button {
+  border: 1px solid black;
+}
+.black-button {
+  border-style: none;
+}
+header input[type="search"] {
+  border-radius: 20px;
+  border: 1px solid black;
+}
+#topics-by-category button {
+  border: 1px solid black;
+}
+header button {
+  border-style: none;
+}
+#courses-list .course-button {
+  border-style: none;
+}
+#course-detail {
+  border: 1px solid lightgray;
+}
+#categories button {
+  border-style: none;
+}
+footer #lang-button {
+  border: 1px solid white;
+}
